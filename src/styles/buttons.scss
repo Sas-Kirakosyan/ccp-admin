@@ -1,0 +1,37 @@
+button {
+  .btn-primary {
+    color: #fff;
+    background-color: #4a85d0;
+    border-color: #4a85d0;
+  }
+  &.btn-xs {
+    padding: 1px 4px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  &.grid-action {
+    color: #4a85d0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 13px;
+    font-size: 11px !important;
+    &:hover {
+      color: #074fac;
+      &:before {
+        background: #074fac;
+      }
+    }
+    i {
+      margin-right: 3px;
+      position: absolute;
+      top: 4px;
+      left: 0;
+    }
+  }
+}
+
+.ladda-button {
+  z-index: 0;
+}

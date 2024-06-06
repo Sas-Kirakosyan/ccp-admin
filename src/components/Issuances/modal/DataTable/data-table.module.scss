@@ -1,0 +1,43 @@
+.tableWrapper {
+  height: 100%;
+  overflow-y: auto;
+  composes: border from global;
+}
+
+.tableHead {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  tr {
+    background-color: #e6e6e6;
+    th {
+      padding: 0.35rem;
+    }
+  }
+}
+
+.tableBody {
+  tr {
+    background-color: transparentize(#f2f2f2, 0.5);
+    &:nth-child(even) {
+      background-color: transparentize(#ebf1fa, 0.5);
+    }
+    &:hover {
+      background-color: transparentize(#e6e6e6, 0.5);
+    }
+    td {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}
+
+.tableFoot {
+  tr {
+    background-color: #e6e6e6;
+    td {
+      padding: 0.35rem;
+    }
+  }
+}

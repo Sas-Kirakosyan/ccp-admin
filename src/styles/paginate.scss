@@ -1,0 +1,40 @@
+.react-paginate {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+  .li-button {
+    color: #476e9f;
+    display: flex;
+    align-items: center;
+    padding: 0px 3px;
+    color: #476e9f;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+  }
+  .link-button {
+    padding: 3px 6px;
+    text-decoration: none;
+  }
+  .previous,
+  .next {
+    color: #476e9f;
+    padding: 4px 10px;
+    color: #476e9f;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    a {
+      text-decoration: none;
+      font-size: 12px;
+    }
+  }
+  .selected {
+    color: #fff;
+    background-color: #476e9f;
+    border-color: #476e9f;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.k-grid-header {
+}
+
+.k-grid-header .k-header {
+  font-size: $text-sm;
+  text-align: left;
+}
+
+.k-grid .k-master-row {
+  td {
+    font-size: $text-sm;
+    text-align: left;
+  }
+}
+
+.k-grid.with-clickable-rows .k-master-row {
+  cursor: pointer;
+}
+
+.react-bootstrap-table {
+  &.table-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 1px solid #e2e6e7;
+    border-bottom: 1px solid #e2e6e7;
+  }
+  &.max-height-400 {
+    max-height: 400px;
+  }
+  &.max-height-440 {
+    max-height: 440px;
+  }
+  &.max-height-480 {
+    max-height: 480px;
+  }
+  &.table-bordered {
+    margin-bottom: 0;
+  }
+
+  .table-bordered th {
+    color: #6c757d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .table-bordered {
+    td {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: #5e666d;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+
+  .custom-table-style td {
+    white-space: normal;
+    vertical-align: middle;
+  }
+
+  .selection-cell {
+    padding: 0 !important;
+    input {
+      margin: 13px 8px !important;
+    }
+  }
+
+  .selection-row {
+    background-color: #f7f6f7;
+  }
+
+  .filter-label {
+    margin-bottom: 0;
+    .text-filter {
+      height: 28px;
+    }
+  }
+}
+
+.react-bootstrap-table-pagination {
+  margin-top: 20px;
+
+  .react-bs-table-sizePerPage-dropdown {
+    .dropdown-toggle {
+      font-size: 12px;
+      border-radius: 1px;
+      padding: 3px 8px;
+    }
+  }
+
+  .pagination {
+    justify-content: flex-end;
+    margin-bottom: 0;
+    .page-item {
+      .page-link {
+        font-size: 12px;
+        padding: 4px 9px;
+        border-radius: 1px;
+      }
+    }
+  }
+}

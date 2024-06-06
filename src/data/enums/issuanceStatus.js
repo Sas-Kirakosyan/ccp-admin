@@ -1,0 +1,16 @@
+export const IssuanceStatus = {
+  CREATED: 'created',
+  SUBMITTED: 'submitted',
+  REVIEWED: 'reviewed',
+  VERIFIED: 'verified',
+  PUBLISHED: 'published',
+  REJECTED: 'rejected',
+  AWAITING_PRICING: 'awaitingpricing',
+  IN_PRICING: 'inpricing',
+  PRICING_FINALIZED: 'pricingfinalized',
+  AWAITING_BENCHMARK_SPOTTING: 'awaitingbenchmarkspotting',
+  BENCHMARK_SPOTTING_START: 'benchmarkspottingstart',
+  PRICING_COMPLETE: 'pricingcomplete',
+  CANCELED: 'canceled',
+  TERMINATED: 'terminated',
+};

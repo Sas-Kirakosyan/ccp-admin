@@ -1,0 +1,4 @@
+{
+  "**/*": ["npm run lint:prettier"],
+  "src/**/*.js": ["npm run lint"]
+}

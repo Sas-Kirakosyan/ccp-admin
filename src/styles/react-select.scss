@@ -1,0 +1,61 @@
+// React Select
+.react-select {
+  &.width-md {
+    width: 100%;
+    max-width: 240px;
+    min-width: 200px;
+  }
+  &.width-sm {
+    width: 100%;
+    max-width: 140px;
+    min-width: 120px;
+  }
+  &.height-md {
+    .react-select__control {
+      height: 36px !important;
+    }
+  }
+  .react-select__control {
+    min-height: 35px !important;
+    border: 1px solid #dde6e9;
+    &.react-select__control--is-focused {
+      box-shadow: none;
+      border: 1px solid #96afd0;
+      &:hover {
+        border: 1px solid #96afd0;
+      }
+    }
+  }
+  .react-select__indicators {
+    align-items: flex-start;
+    padding-top: 5px;
+    .react-select__clear-indicator {
+      cursor: pointer;
+    }
+    .react-select__dropdown-indicator {
+      cursor: pointer;
+    }
+    .react-select__indicator-separator {
+      display: none;
+    }
+    .react-select__indicator {
+      padding: 2px;
+    }
+  }
+  .react-select__menu {
+    z-index: 5;
+  }
+}
+
+.tranches-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  .inquiry-tranche {
+    width: 100%;
+    max-width: 232px;
+    min-width: 232px;
+  }
+}

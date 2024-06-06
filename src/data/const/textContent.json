@@ -1,0 +1,65 @@
+{
+  "keywords": {
+    "CANCEL": "Cancel",
+    "SUBMIT": "Submit",
+    "REJECT": "Reject",
+    "SAVE": "Save",
+    "REFRESH": "Refresh"
+  },
+  "modal": {
+    "reject_issuance": {
+      "TITLE": "Please specify rejection reason"
+    },
+    "cancel_terminate_issuance": {
+      "TITLE": "Cancel or Terminate Issue",
+      "CONFIRM_AND_SUBMIT": "Confirm and Submit",
+      "AUCTION_TERMINATED": "Auction Terminated",
+      "AUCTION_CANCELED": "Auction Canceled",
+      "SUBMIT_TITLE": "You are canceling or terminating",
+      "DESCRIPTION_LABEL": "Enter Full Message to Investor here",
+      "SUBMIT_DESCRIPTION": "The following messages will appear to Investors on the platform and be sent to them by email - do you want to proceed?"
+    },
+    "adjust_bid": {
+      "ADJUST_BID_SUCCESS": "The bid has been successfully adjusted",
+      "REMOVE_BID_SUCCESS": "The bid has been successfully removed"
+    },
+    "remove_bidder": {
+      "REMOVE_BIDDER_SUCCESS": "The bidder has been successfully removed"
+    }
+  },
+  "issuances": {
+    "REJECT_REASON": "Rejection Reason",
+    "ADJUSTMENT_REASON": "Adjustment Reason",
+    "REMOVAL_BIDDER_REASON": "Bidder Removal Reason",
+    "CANCEL_ISSUE": "Cancel Issue",
+    "DOWNLOAD_REPORT": "Download Bidding Report",
+    "DOWNLOAD_SETTLEMENT": "Download Settlement File",
+    "VERIFY": "Verify",
+    "NO_ISSUANCE_SELECTED": "No issuance selected",
+    "ID": "Id",
+    "ISSUE": "Issue",
+    "ISSUE_DATE": "Issue Date",
+    "STATUS": "Status",
+    "ADJUST_BID": "Adjust Bids",
+    "REMOVE_BID": "Remove Last Bid",
+    "REMOVE_BIDDER": "Remove Bidder"
+  },
+  "placeholder": {
+    "REASON": "Reason is required",
+    "INVESTOR_ALERT": "Select Investor Alert"
+  },
+  "errors": {
+    "REQUIRED": "Required",
+    "REQUIRED_CREDIT_LIMIT": "all investor organizations must have a credit limit",
+    "IS_MATCH_COMMENCING_ON": "CommencingOn must be equal any InterestPaymentDates",
+    "DTC_NUMBER_MIN": "dtc number should be minimum 4 digits",
+    "EMAIL_NOT_VALID": "email is not valid",
+    "PHONE_NOT_VALID": "phone number is not valid",
+    "ADDRESS_NOT_VALID": "address number is not valid"
+  },
+  "ORG_TYPE": {
+    "ISSUER": "Issuer",
+    "INVESTOR": "Investor",
+    "ADMIN": "Admin"
+  }
+}
